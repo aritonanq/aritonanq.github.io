@@ -1,0 +1,247 @@
+* {
+  max-width: 100%;
+}
+
+body {
+  font-family: Questrial;
+}
+
+.brand {
+  font-family: Righteous;
+  font-size: 3rem;
+}
+
+.jumbotron {
+  margin: 0rem;
+}
+
+.navbar {
+  height: 6rem;
+}
+
+.nav-link {
+  margin: 1.5rem;
+}
+
+.nav-item {
+  margin: 0.5rem;
+}
+
+.jumbotron {
+  padding-top: 5.5rem;
+}
+
+.containertron {
+  padding: 3rem 10rem;
+  color: white;
+}
+
+.photo {
+  margin: 0rem 6rem;
+  width: 35rem;
+}
+
+.h1 {
+  font-family: Courgette;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: Courgette;
+}
+
+.braw {
+  font-size: 1.2rem;
+}
+
+.about {
+  color: rgb(21, 1, 31);
+  background-color: white;
+  font-family: Courgette;
+  margin-top: 1.6rem;
+}
+
+.experience {
+  font-family: Courgette;
+  margin-bottom: 5rem;
+}
+
+.container2 {
+  background-color: rgb(21, 1, 31);
+  color: white;
+  padding-bottom: 1.3rem;
+}
+
+.carou {
+  width: 40rem;
+}
+
+.capt {
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 20rem;
+  padding: 0.3rem 1.3rem;
+  background-color: rgb(21, 1, 31);
+  font-family: Courgette;
+}
+
+.capt2 {
+  font-size: 0.8rem;
+  border-radius: 20rem;
+  padding: 0.3rem 1.3rem;
+  color: rgb(21, 1, 31);
+}
+
+.footer {
+  color: rgb(21, 1, 31);
+  background-color: white;
+  padding: 0.3rem 1.3rem;
+  border-radius: 20rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    max-width: 100%;
+  }
+
+  .photo {
+    width: 24rem;
+    margin-top: 4rem;
+  }
+
+  .navbar {
+    margin-bottom: 10rem;
+  }
+
+  .containertron {
+    text-align: center;
+  }
+
+  .jumbotron {
+    padding-top: 0rem;
+  }
+
+  .h1 {
+    font-size: 3rem;
+  }
+
+  .its {
+    font-size: 3rem;
+  }
+
+  .link {
+    font-size: 3rem;
+  }
+
+  .braw {
+    font-size: 1rem;
+  }
+
+  .about {
+    font-size: 3rem;
+    margin-top: 2.5rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+  }
+
+  .q {
+    font-size: 1rem;
+  }
+
+  .experience {
+    font-size: 3rem;
+    margin: 1.3rem 0;
+  }
+
+  .capt {
+    font-size: 1.1rem;
+  }
+
+  .capt2 {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .carou {
+    width: 33rem;
+  }
+}
+
+@media screen and (min-width: 317px) and (max-width: 767px) {
+  * {
+    max-width: 100%;
+  }
+
+  .photo {
+    width: 24rem;
+    margin-top: 5rem;
+  }
+
+  .navbar {
+    margin-bottom: 10rem;
+  }
+
+  .containertron {
+    text-align: center;
+  }
+
+  .jumbotron {
+    padding-top: 0rem;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .its {
+    font-size: 2rem;
+  }
+
+  .link {
+    font-size: 2rem;
+  }
+
+  .braw {
+    font-size: 0.7rem;
+  }
+
+  .about {
+    font-size: 2rem;
+    margin-top: 2.7rem;
+  }
+
+  .desc {
+    font-size: 0.6rem;
+  }
+
+  .q {
+    font-size: 0.7rem;
+  }
+
+  .experience {
+    font-size: 2rem;
+    margin: 1.3rem 0;
+  }
+
+  .capt {
+    font-size: 1.1rem;
+  }
+
+  .capt2 {
+    font-size: 20rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .carou {
+    width: 25rem;
+  }
+}
