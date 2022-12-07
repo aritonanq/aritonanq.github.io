@@ -345,7 +345,7 @@ body {
 
 @media screen and (max-width: 414px) {
   .navbar {
-    height: auto;
+    height: 4rem;
   }
   .photo {
     width: 20rem;
