@@ -9,6 +9,7 @@ body {
 .brand {
   font-family: Righteous;
   font-size: 3rem;
+  margin-left: 2rem;
 }
 
 .jumbotron {
@@ -151,6 +152,7 @@ body {
     font-size: 3rem;
     margin-top: 2.5rem;
   }
+
   .msg {
     font-size: 3rem;
   }
@@ -266,6 +268,7 @@ body {
   .brand {
     margin-left: 1rem;
   }
+
   * {
     max-width: 100%;
   }
@@ -357,6 +360,7 @@ body {
   .indica {
     margin-bottom: 0rem;
   }
+
   .ind {
     line-height: 5rem;
   }
