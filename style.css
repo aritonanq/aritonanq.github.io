@@ -100,7 +100,7 @@ body {
   border-radius: 20rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   * {
     max-width: 100%;
   }
@@ -173,14 +173,14 @@ body {
   }
 }
 
-@media screen and (min-width: 317px) and (max-width: 767px) {
+@media screen and (min-width: 992px) and (max-width: 1164px) {
   * {
     max-width: 100%;
   }
 
   .photo {
     width: 24rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   .navbar {
@@ -188,7 +188,83 @@ body {
   }
 
   .containertron {
+    padding-top: 10rem;
     text-align: center;
+  }
+
+  .jumbotron {
+    padding-top: 0rem;
+  }
+
+  .h1 {
+    font-size: 3rem;
+  }
+
+  .its {
+    font-size: 3rem;
+  }
+
+  .link {
+    font-size: 3rem;
+  }
+
+  .braw {
+    font-size: 0.9rem;
+  }
+
+  .about {
+    font-size: 3rem;
+    margin-top: 2.5rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+  }
+
+  .q {
+    font-size: 1rem;
+  }
+
+  .experience {
+    font-size: 3rem;
+    margin: 1.3rem 0;
+  }
+
+  .capt {
+    font-size: 1.1rem;
+  }
+
+  .capt2 {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+
+  .carou {
+    width: 33rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brand {
+    margin-left: 1rem;
+  }
+  * {
+    max-width: 100%;
+  }
+
+  .photo {
+    width: 24rem;
+    margin-top: 5rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+
+  .containertron {
+    text-align: center;
+    padding: 0rem 5rem;
   }
 
   .jumbotron {
@@ -212,8 +288,8 @@ body {
   }
 
   .about {
-    font-size: 2rem;
-    margin-top: 2.7rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
   }
 
   .desc {
@@ -225,23 +301,132 @@ body {
   }
 
   .experience {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1.3rem 0;
   }
 
   .capt {
-    font-size: 1.1rem;
+    font-size: 0.6rem;
+    margin-bottom: 0rem 0rem;
   }
 
   .capt2 {
-    font-size: 20rem;
+    font-size: 0.5rem;
+    padding: 0.1rem 1rem;
+    margin: 0rem 0rem;
+  }
+
+  h5 {
+    margin-bottom: 0rem;
+  }
+
+  .carousel-caption {
+    padding: 0rem;
+  }
+  .lemb {
+    margin-bottom: 0rem;
   }
 
   .footer {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .carou {
-    width: 25rem;
+    width: 24rem;
+  }
+
+  .indica {
+    margin-bottom: 0rem;
+  }
+  .ind {
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .navbar {
+    height: auto;
+  }
+  .photo {
+    width: 20rem;
+  }
+  .h1 {
+    font-size: 1.8rem;
+  }
+
+  .its {
+    font-size: 1.8rem;
+  }
+
+  .link {
+    font-size: 1.8rem;
+  }
+
+  .braw {
+    font-size: 0.5rem;
+  }
+
+  .about {
+    font-size: 1.3rem;
+    margin-top: 3.5rem;
+  }
+
+  .desc {
+    font-size: 0.5rem;
+  }
+
+  .q {
+    font-size: 0.6rem;
+  }
+
+  .experience {
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+  }
+  .capt {
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    margin-bottom: 0rem 0rem;
+  }
+  .capt2 {
+    font-size: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    margin: 0rem 0rem;
+  }
+
+  .footer {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .about {
+    font-size: 1rem;
+    margin-top: 3.5rem;
+  }
+
+  .capt {
+    font-size: 0.4rem;
+    padding: 0.3rem 0.5rem;
+    margin: 0rem 0rem;
+  }
+
+  .capt2 {
+    font-size: 0.3rem;
+    padding: 0.1rem 0.5rem;
+    margin: 0rem 0rem;
+  }
+
+  .lemb {
+    margin: 0rem;
+  }
+
+  .experience {
+    font-size: 1rem;
+    margin: 1.3rem 0;
+  }
+
+  .footer {
+    font-size: 0.5rem;
   }
 }
